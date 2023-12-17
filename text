@@ -1,0 +1,8 @@
+create model-migration
+
+npx sequelize-cli model : generate -- name Ours -- attributes ours_name : string,lastName : string,email:string
+
+
+create seeder file
+
+npx sequelize-cli seed : generate -- name demo - user
